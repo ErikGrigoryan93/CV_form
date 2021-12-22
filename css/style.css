@@ -142,6 +142,42 @@ body {
   padding-bottom: 96px;
   font-size: 36px;
 }
+.main_container .contact {
+  padding: 0 40px;
+}
+.main_container .contact h2 {
+  text-align: center;
+  padding-top: 48px;
+  font-size: 36px;
+}
+.main_container .contact h3 {
+  color: rgba(255, 255, 255, 0.397);
+}
+.main_container .contact > div {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  height: 300px;
+}
+.main_container .contact > div input {
+  width: 95%;
+  padding: 10px;
+  margin: 0;
+  border-color: rgba(255, 255, 0, 0);
+}
+.main_container .contact > div hr {
+  margin: 0;
+}
+.main_container .contact > div p {
+  margin-bottom: 0;
+}
+.main_container .contact > div button {
+  float: right;
+  color: white;
+  background-color: #009688;
+  padding: 10px 20px ;
+  margin-top: 10px;
+}
 footer {
   padding: 60px;
   background-color: black;
