@@ -13,12 +13,51 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr ;
     div {
-        height: 70vh;
+        height: 700px;
     }
 
     .logo {
         color: white;
         background-color: black;
+        text-align: center;
+
+        h2 {
+            padding: 64px 0 64px 0;
+            font-size: 36px;
+        }
+        > div {
+            display:block;
+            padding: 64px 0;
+           a {
+               display: block;
+               margin: 0 10px;
+               color: white;
+               line-height: 3.5;
+               text-decoration: none;
+               &:hover {
+                    background-color: gray;
+                
+               }
+               
+           }
+           .gray:hover {
+                background-color: #607d8b;
+            }
+
+            .work1:hover {
+                background-color: #009688;
+            }
+
+            .contact1:hover {
+                background-color: rgb(126, 88, 66);
+            }
+
+        }
+    }
+
+    .work {
+        color: black;
+        background-color: #f1f1f1
     }
 
     .about {
