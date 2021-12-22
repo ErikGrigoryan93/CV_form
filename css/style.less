@@ -12,7 +12,7 @@ body {
 .main_container {
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    div {
+    > div {
         height: 700px;
     }
 
@@ -99,6 +99,27 @@ body {
             text-align: left;
             line-height: 1.5;
         }
+    }
+
+    .work {
+        text-align: center;
+        h2 {
+            padding-top: 48px;
+            font-size: 36px;
+        }
+
+        .images {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            > img {
+                width: 100%;
+            }
+        }
+        
+        p {
+            margin-top: 24px;
+        }
+
     }
 }
 
