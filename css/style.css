@@ -65,6 +65,24 @@ body {
   color: white;
   background-color: #009688;
 }
+.main_container .about {
+  text-align: center;
+}
+.main_container .about h2 {
+  padding-top: 64px;
+  font-size: 36px;
+}
+.main_container .about img {
+  border-radius: 50%;
+  width: 50%;
+  margin-bottom: 24px;
+}
+.main_container .about p {
+  max-width: 550px;
+  margin: 0px 75px;
+  text-align: left;
+  line-height: 1.5;
+}
 footer {
   padding: 60px;
   background-color: black;
