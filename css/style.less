@@ -1,6 +1,7 @@
 * {
     font-family: sans-serif;
     font-weight: 400;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -231,4 +232,15 @@ body {
 footer {
     padding: 60px;
     background-color: black;
+    color: white;
+    a {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main_container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
