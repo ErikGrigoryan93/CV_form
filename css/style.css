@@ -133,6 +133,15 @@ body {
   font-size: 20px;
   margin: 0;
 }
+.main_container .swing {
+  text-align: center;
+}
+.main_container .swing h2 {
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 96px;
+  font-size: 36px;
+}
 footer {
   padding: 60px;
   background-color: black;
