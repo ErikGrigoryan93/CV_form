@@ -1,0 +1,39 @@
+* {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+body {
+  max-width: 1300px;
+  margin: auto;
+}
+.main_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+.main_container div {
+  height: 70vh;
+}
+.main_container .logo {
+  color: white;
+  background-color: black;
+}
+.main_container .about {
+  color: white;
+  background-color: #607d8b;
+}
+.main_container .resume {
+  color: white;
+  background-color: #3f51b5;
+}
+.main_container .swing {
+  color: white;
+  background-color: #616161;
+}
+.main_container .contact {
+  color: white;
+  background-color: #009688;
+}
+footer {
+  padding: 60px;
+  background-color: black;
+}
